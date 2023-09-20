@@ -1,8 +1,11 @@
 import styles from "./Postit.scss"
 
-const Postit = () =>{
+const Postit = (couleur) =>{
     return(
         <>
+            <div className={`${carre} ${couleur.couleur}`}>
+
+            </div>
         </>
     )
 }
